@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void doOpenHomeActivity()
+    public void doOpenListActivity()
     {
         Intent myIntent=new Intent(this, List_casi.class);
         startActivity(myIntent);
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     Toast.makeText(getApplicationContext(),"Dang nhap thanh cong!",Toast.LENGTH_SHORT).show();
-                    doOpenHomeActivity();
+                    doOpenListActivity();
                 }else {
                     Toast.makeText(getApplicationContext(),"Dang nhap khong thanh cong!",Toast.LENGTH_SHORT).show();
                 }

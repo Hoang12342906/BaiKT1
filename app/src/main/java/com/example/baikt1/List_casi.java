@@ -15,7 +15,6 @@ import java.util.Objects;
 public class List_casi extends AppCompatActivity {
 
     ListView lvCasi;
-
     ArrayList<casi> arrayCasi;
     CasiAdapter adapter;
 
@@ -33,13 +32,9 @@ public class List_casi extends AppCompatActivity {
 
     }
 
-
-
     private void AnhXa() {
         lvCasi = findViewById(R.id.listviewCasi);
         arrayCasi = new ArrayList<>();
-
-
 
         arrayCasi.add(new casi("Nguyễn Thanh Tùng","MTP",R.drawable.sontung,R.drawable.vietnam));
         arrayCasi.add(new casi("Trần Văn Phúc","Đức Phúc",R.drawable.ducphuc,R.drawable.vietnam));

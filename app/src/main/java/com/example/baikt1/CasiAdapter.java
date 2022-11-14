@@ -5,11 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class CasiAdapter extends BaseAdapter {
@@ -53,12 +50,12 @@ public class CasiAdapter extends BaseAdapter {
         ImageView imgquocgia = (ImageView) view.findViewById(R.id.imgviewQuocgia);
 
         //gan gia tri
-        casi casi = casiList.get(i);
+        casi Casi = casiList.get(i);
 
-        txtTen.setText(casi.getTen());
-        txtNghedanh.setText(casi.getNghedanh());
-        imgHinh.setImageResource(casi.getHinh());
-        imgquocgia.setImageResource(casi.getQuocgia());
+        txtTen.setText(Casi.getTen());
+        txtNghedanh.setText(Casi.getNghedanh());
+        imgHinh.setImageResource(Casi.getHinh());
+        imgquocgia.setImageResource(Casi.getQuocgia());
 
 
 

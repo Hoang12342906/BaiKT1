@@ -13,7 +13,7 @@
         android:id="@+id/viewsignin"
         android:layout_width="350dp"
         android:layout_height="400dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="172dp"
         android:background="@drawable/round_boder1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
